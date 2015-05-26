@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>QuadModels</id>
+    <version>$version$</version>
+    <title>QuadModels</title>
+    <authors>Rob Cawsey</authors>
+    <owners>Rob Cawsey</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>QuadApp EntityFramework</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &#x00A9; Microsoft Corporation.  All rights reserved.</copyright>
+    <tags>QuadApp</tags>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\QuadEntityFramework.dll" target="lib\net40\" />
+  </files>
+</package>
