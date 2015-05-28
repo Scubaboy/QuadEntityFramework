@@ -13,7 +13,7 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
-%nuget% restore
+%nuget% restore QuadEntityFramework.sln -NoCache -NonInteractive
 
 %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild QuadEntityFramework.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
  
