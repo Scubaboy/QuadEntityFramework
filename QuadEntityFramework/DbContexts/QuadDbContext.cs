@@ -10,6 +10,12 @@ namespace QuadEntityFramework.DbContexts
         public DbSet<ActiveQuadEntity> Quads { get; set; }
         public DbSet<UpdateTrackerEntity> UpdateTracker { get; set; }
 
+        public QuadDbContext():
+            base()
+        {
+
+        }
+
         public QuadDbContext(string connectionString) :
             base(connectionString)
         {
