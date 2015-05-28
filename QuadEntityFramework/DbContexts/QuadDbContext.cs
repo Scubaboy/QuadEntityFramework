@@ -5,7 +5,7 @@ using System.Data.Entity.Infrastructure;
 
 namespace QuadEntityFramework.DbContexts
 {
-    class QuadDbContext : DbContext, IDbContext
+    public class QuadDbContext : DbContext, IDbContext
     {
         public DbSet<ActiveQuadEntity> Quads { get; set; }
         public DbSet<UpdateTrackerEntity> UpdateTracker { get; set; }
