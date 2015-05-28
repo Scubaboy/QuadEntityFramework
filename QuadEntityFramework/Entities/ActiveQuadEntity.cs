@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuadEntityFramework.Entities
 {
-    class ActiveQuad
+    public class ActiveQuadEntity
     {
     }
 }
