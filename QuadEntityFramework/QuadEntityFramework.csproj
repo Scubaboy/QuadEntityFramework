@@ -36,7 +36,8 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="QuadModels">
+    <Reference Include="QuadModels, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\QuadModels.1.0.0-CI00013\lib\net40\QuadModels.dll</HintPath>
     </Reference>
     <Reference Include="System" />
