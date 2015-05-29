@@ -13,7 +13,7 @@ namespace QuadEntityFramework.Repositories.Passive
 
         public ActiveQuadRepository(IDbContext db)
         {
-            this.dbSet = db.Set<ActiveQuadEntity>();
+            this.dbSet = db.GetSet<ActiveQuadEntity>();
             this.db = db;
         }
 
@@ -50,7 +50,7 @@ namespace QuadEntityFramework.Repositories.Passive
 
         public void Update(ActiveQuadEntity item)
         {
-            this.db.Entry(item).State = EntityState.Modified;
+            this.db.GetEntry(item).State = EntityState.Modified;
         }
 
         public void Save()

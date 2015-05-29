@@ -10,7 +10,7 @@ namespace QuadEntityFramework.Interfaces
         /// </summary>
         /// <typeparam name="T">The class of the entity</typeparam>
         /// <returns>The <see cref="DbSet"/>.</returns>
-        DbSet<T> Set<T>() where T : class;
+        DbSet<T> GetSet<T>() where T : class;
 
         /// <summary>
         /// Save changes.
@@ -24,6 +24,6 @@ namespace QuadEntityFramework.Interfaces
         /// <param name="entity">The entity.</param>
         /// <typeparam name="T">The class of the entity</typeparam>
         /// <returns>The <see cref="DbEntityEntry"/>.</returns>
-        DbEntityEntry<T> Entry<T>(T entity) where T : class;
+        DbEntityEntry<T> GetEntry<T>(T entity) where T : class;
     }
 }

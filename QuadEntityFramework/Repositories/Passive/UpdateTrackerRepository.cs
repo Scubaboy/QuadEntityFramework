@@ -16,7 +16,7 @@ namespace QuadEntityFramework.Repositories.Passive
 
         public UpdateTrackerRepository(IDbContext db)
         {
-            this.dbSet = db.Set<UpdateTrackerEntity>();
+            this.dbSet = db.GetSet<UpdateTrackerEntity>();
             this.db = db;
         }
 
@@ -53,7 +53,7 @@ namespace QuadEntityFramework.Repositories.Passive
 
         public void Update(UpdateTrackerEntity item)
         {
-            this.db.Entry(item).State = EntityState.Modified;
+            this.db.GetEntry(item).State = EntityState.Modified;
             
         }
 
