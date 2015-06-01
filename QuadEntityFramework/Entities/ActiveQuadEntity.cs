@@ -1,4 +1,5 @@
-﻿using QuadModels;
+﻿using Breeze.Sharp;
+using QuadModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuadEntityFramework.Entities
+namespace QuadEntityFramework.Entities 
 {
-    public class ActiveQuadEntity
+    public class ActiveQuadEntity : BaseEntity
     {
         public int ActiveQuadEntityId { get; set; }
 
