@@ -37,7 +37,7 @@
   <ItemGroup>
     <Reference Include="QuadModels, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\QuadModels.1.0.0-CI00013\lib\net40\QuadModels.dll</HintPath>
+      <HintPath>..\packages\QuadModels.1.0.0-CI00023\lib\net40\QuadModels.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
