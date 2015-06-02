@@ -1,4 +1,4 @@
-﻿using QuadEntityFramework.Entities;
+﻿using QuadEFModels.Entities;
 using QuadEntityFramework.Interfaces;
 using System;
 using System.Collections.Generic;
